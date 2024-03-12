@@ -14,8 +14,7 @@ package-lock.json
 # cache
 .cache
 
-# personal
-config.js
+# persona
 docker-compose.yml
 docker-push.sh
 rec
