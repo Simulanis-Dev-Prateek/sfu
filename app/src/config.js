@@ -360,15 +360,15 @@ module.exports = {
         webRtcServerActive: false,
         webRtcServerOptions: {
             listenInfos: [
-                { protocol: 'udp', ip: '0.0.0.0', announcedAddress: getLocalIp(), port: 44444 },
-                { protocol: 'tcp', ip: '0.0.0.0', announcedAddress: getLocalIp(), port: 44444 },
+                { protocol: 'udp', ip: '0.0.0.0', announcedAddress: '20.219.138.185', port: 80 },
+                { protocol: 'tcp', ip: '0.0.0.0', announcedAddress:'20.219.138.185', port: 80 },
             ],
         },
         // WebRtcTransportOptions
         webRtcTransport: {
             listenInfos: [
-                { protocol: 'udp', ip: '0.0.0.0', announcedAddress: getLocalIp() },
-                { protocol: 'tcp', ip: '0.0.0.0', announcedAddress: getLocalIp() },
+                { protocol: 'udp', ip: '0.0.0.0', announcedAddress: '20.219.138.185'},
+                { protocol: 'tcp', ip: '0.0.0.0', announcedAddress: '20.219.138.185' },
             ],
             initialAvailableOutgoingBitrate: 1000000,
             minimumAvailableOutgoingBitrate: 600000,
